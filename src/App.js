@@ -10,7 +10,7 @@ import Clock from "./components/Clock";
 //   return <Hello />;
 // }
 function App() {
-  return <Clock />, <Guide />;
+  return <Clock />;
 }
 
 export default App;
