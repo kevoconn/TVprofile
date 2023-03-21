@@ -1,6 +1,6 @@
 import React from "react";
-import Guide from "./components/Guide";
-import Clock from "./components/Clock";
+import PortfolioContainer from "./components/PortfolioContainer";
+// import Guide from "./components/Guide";
 // // First we import our Hello component from our components folder.
 // import Hello from './components/Hello';
 
@@ -9,8 +9,10 @@ import Clock from "./components/Clock";
 // function App() {
 //   return <Hello />;
 // }
-function App() {
-  return <Clock />;
-}
+// function App() {
+//   return <Guide />;
+// }
+
+const App = () => <PortfolioContainer />;
 
 export default App;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Clock.css";
+import "./styles.css";
 
 function Clock() {
   const [time, setTime] = useState(new Date().toLocaleTimeString("en-US"));
